@@ -5,19 +5,9 @@ import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+@Data
+@NoArgsConstructor
 public class Person {
-    package ie.atu.week11example;
-
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotBlank;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-    @Data
-    @NoArgsConstructor
-    public class Person {
         @NotBlank
         private String name;
 
@@ -38,7 +28,5 @@ import lombok.NoArgsConstructor;
 
         @NotBlank
         private String department;
-
-    }
 
 }
